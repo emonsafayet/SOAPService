@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="https://api.apma.app/service.asmx?wsdl" docRef="https://api.apma.app/service.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="https://api.apma.app/service.asmx" xmlns:q1="Amadeus.Hospitality.HybridCloudEngine" binding="q1:HybridCloudEngineSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="https://api.apma.app/service.asmx" xmlns:q2="Amadeus.Hospitality.HybridCloudEngine" binding="q2:HybridCloudEngineSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>
